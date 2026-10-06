@@ -86,3 +86,17 @@ section h2 {
   .formulario button[type="submit"]:active {
     transform: scale(0.98);
   }
+
+  .error{
+    width: 80%;
+    height: 25px;
+    background-color: rgb(255, 75, 75);
+    border: 1px rgb(94, 14, 14);
+    border-radius: 7px;
+    padding: 10px;
+  }
+
+  .textoError{
+    color: #ffffff;
+    font-weight: 700;
+  }

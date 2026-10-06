@@ -22,6 +22,10 @@ function App() {
         <Route path="/contato" element={<Contato />}/>
         <Route path="/sobre" element={<Sobre />}/>
 
+        <Route path="/tarefas" element={<ListarTarefas />}/>
+        <Route path="/tarefa/:id" element={<ListarUmaTarefa />}/>
+        <Route path="/cadastrarTarefa" element={<CadastrarTarefa />}/>
+
        </Routes>
       </main>
    <Footer/>

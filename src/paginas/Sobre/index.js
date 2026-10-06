@@ -1,8 +1,8 @@
 import './index.css'
 import fotoPerfil from './minhafoto.jpeg';
 import habilidademusica from './musica.png';
-import habilidadedesenho from './minhafoto.jpeg';
-import habilidademaquiagem from './minhafoto.jpeg';
+import habilidadedesenho from './desenhar.png';
+import habilidademaquiagem from './maquiagem.png';
 
 function Sobre(){
     return (
