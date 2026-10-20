@@ -3,7 +3,7 @@ const tarefas = [
         id : 1,
         titulo: 'Implementar a Tela de Login',
         descricao: 'Tela de Login deve seguir os conceito de UX e UI',
-        responsavel: 'Lucia'
+        responsavel: 'Gabriel'
     },
     {
         id : 2,
@@ -21,13 +21,13 @@ const tarefas = [
         id : 4,
         titulo: 'Ajustar Responsividade do Dashboard',
         descricao: 'Corrigir quebra de layout em telas mobile e tablets',
-        responsavel: 'Mariana'
+        responsavel: 'Julia'
     },
     {
         id : 5,
         titulo: 'Configurar Banco de Dados PostgreSQL',
         descricao: 'Criar tabelas de usuários, tarefas e permissões com migrations',
-        responsavel: 'Rafael'
+        responsavel: 'Miguel'
     },
     {
         id : 6,
@@ -51,25 +51,25 @@ const tarefas = [
         id : 9,
         titulo: 'Configurar Pipeline de CI/CD',
         descricao: 'Automação de deploy contínuo no ambiente de staging via GitHub Actions',
-        responsavel: 'Thiago'
+        responsavel: 'Alysson'
     },
     {
         id : 10,
         titulo: 'Otimizar Performance de Imagens',
         descricao: 'Converter imagens para WebP e aplicar Lazy Loading na galeria',
-        responsavel: 'Aline'
+        responsavel: 'Josiane'
     },
     {
         id : 11,
         titulo: 'Implementar Filtro e Busca na Listagem',
         descricao: 'Permitir busca por título, responsável e status na tabela de tarefas',
-        responsavel: 'Gabriel'
+        responsavel: 'Helio'
     },
     {
         id : 12,
         titulo: 'Documentar Endpoints da API',
         descricao: 'Escrever especificação completa da API utilizando Swagger/OpenAPI',
-        responsavel: 'Patricia'
+        responsavel: 'Carol'
     }
 ]
 

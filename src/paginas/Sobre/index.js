@@ -13,7 +13,7 @@ function Sobre(){
             </header>
             <section>  
                <div className='fotoPerfil'>
-                   <img className="fotoperfil" src={fotoPerfil} />
+                   <img className='imgfotoPerfil' src={fotoPerfil} />
                    <p>Yasmim Santana</p>
             </div>
             <div>
