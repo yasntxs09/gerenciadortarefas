@@ -12,6 +12,9 @@ import ListarTarefas from './paginas/ListarTarefas';
 import ListarUmaTarefa from './paginas/ListarUmaTarefa';
 import CadastrarTarefa from './paginas/CadastrarTarefa';
 
+import ListarContato from './paginas/ListarContato';
+import CadastrarContato from './paginas/CadastrarContato';
+
 function App() {
   return (
     <BrowserRouter>
@@ -27,7 +30,7 @@ function App() {
         <Route path="/cadastrarTarefa" element={<CadastrarTarefa />}/>
 
         <Route path="/contato" element={<ListarContato />}/>
-        <Route path="/contato/:id" element={<ListarUmContato />}/>
+        <Route path="/contato/:id" element={<ListarContato />}/>
         <Route path="/cadastrarTarefa" element={<CadastrarContato />}/>
 
        </Routes>

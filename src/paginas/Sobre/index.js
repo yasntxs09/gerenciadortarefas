@@ -13,27 +13,27 @@ function Sobre(){
             </header>
             <section>  
                <div className='fotoPerfil'>
-                   <img className='imgfotoPerfil' src={fotoPerfil} />
+                   <img className='imgfotoPerfil' src={fotoPerfil} alt="Foto perfil" />
                    <p>Yasmim Santana</p>
             </div>
             <div>
                 <article>
                   <h2>Música</h2>
-                  <img src={habilidademusica}/>
+                  <img src={habilidademusica} alt="Habilidade de Musica"/>
                   <p className='descrição'>
                     Gosto de ouvir musica sempre que vou fazer algo
                   </p>
             </article>
             <article>
                   <h2>Desenhar</h2>
-                  <img src={habilidadedesenho}/>
+                  <img src={habilidadedesenho} alt="Habilidade de Desenho"/>
                   <p className='descrição'>
                     Desenho na minha parede a 2 ano
                 </p>
             </article>
                 <article>
                   <h2>Maquiagem</h2>
-                  <img src={habilidademaquiagem}/>
+                  <img src={habilidademaquiagem} alt="Habilidade de Maquiagem"/>
                   <p className='descrição'>
                     Gosto de fazer maquiagem pra ir em qualquer lugar 
                 </p>

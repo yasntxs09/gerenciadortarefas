@@ -83,4 +83,4 @@ function CadastrarContato() {
         </main>
     )
 }
-export default CadastrarTarefa;
+export default CadastrarContato;
