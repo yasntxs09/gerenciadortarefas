@@ -26,7 +26,7 @@ function App() {
         <Route path="/sobre" element={<Sobre />}/>
 
         <Route path="/tarefas" element={<ListarTarefas />}/>
-        <Route path="/tarefa/:id" element={<ListarUmaTarefa />}/>
+        <Route path="/tarefas/:id" element={<ListarUmaTarefa />}/>
         <Route path="/cadastrarTarefa" element={<CadastrarTarefa />}/>
 
         <Route path="/contato" element={<ListarContato />}/>

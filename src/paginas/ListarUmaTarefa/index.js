@@ -4,7 +4,7 @@ import tarefas from '../../mook/tarefas'
 
 function ListarUmaTarefa() {
     const {id} =useParams();
-    const tarefa = tarefa.find((item) => String(item.id) ==String(id));
+    const tarefa = tarefas.find((item) => String(item.id) === String(id));
 
     if (!tarefa) {
         return <p>Tarefa não encontrada</p>;
